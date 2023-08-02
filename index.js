@@ -96,4 +96,19 @@ if (num13 >= 5 && num14 >=5) {
 let num13 = 5
 let num14 = 6
 
+// Pair and Compare
 
+// will use if/else statement and strict equality operator to compare two sets of values
+// the result will be true if one of the pair is truthy
+
+if ((param1A && param1B) || (param2A && param2B)) {
+    consoloe.log(true);
+} else {
+    consoloe.log(false);
+}
+
+// Test each case to different values
+let param1A = "cat"
+let param1B = "cat"
+let param2A = 6
+let param2B = "6"
